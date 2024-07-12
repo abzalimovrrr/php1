@@ -1,5 +1,6 @@
 <?php
 include 'db_config.php';
+// include 'db_config.php';
 
 // Добавление записи в базу данных
 if (isset($_POST['add_order'])) {
