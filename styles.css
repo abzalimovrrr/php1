@@ -1,0 +1,234 @@
+/* Стили для заголовка, текста и кнопок */
+h1, h2, p {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff99;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Стили для навигации */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Стили для секций */
+  section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Стили для формы */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Стили для подвала */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+.star-rating {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star-rating .star {
+  color: #ccc;
+}
+
+.star-rating .star.active {
+  color: red;
+}
+
+/* Стили для ссылки "Добавить" */
+a {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+/* Стили для кнопки "Сохранить" */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #219f54;
+}
+/* Стили для формы editForm */
+#editForm {
+  display: none;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#editForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#editForm input[type="text"],
+#editForm input[type="email"],
+#editForm input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#editForm input[type="submit"] {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#editForm input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+
+/* Стили для таблицы и кнопки "Добавить" */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+
+/* Стили для выпадающего списка */
+select {
+  padding: 5px 10px; /* Отступы внутри элемента */
+  font-size: 14px; /* Размер шрифта */
+  border: 1px solid #ccc; /* Граница поля ввода */
+  border-radius: 5px; /* Скругление углов */
+
+  /* Добавление стрелочки на фон выпадающего списка */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z' fill='%23333'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; /* Запрет повторения фона */
+  background-position: right 10px center; /* Позиция стрелочки */
+}
+
+/* Стили для опций в выпадающем списке */
+select option {
+  padding: 5px; /* Отступы внутри опции */
+}
+
+
+
+  /* Стилизация таблицы */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
